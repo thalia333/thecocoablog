@@ -36,7 +36,7 @@ html, body {
 #rectangle {
     width: 9%;
     height: 27%;
-    background-color: #CA661D; 
+    background-color: blue; 
     position: absolute; 
     top: 32%; 
     left: 0;
