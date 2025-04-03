@@ -36,7 +36,7 @@ html, body {
 #rectangle {
     width: 9%;
     height: 27%;
-    background-color: blue; 
+    background-color: #CA661D; 
     position: absolute; 
     top: 32%; 
     left: 0;
@@ -146,7 +146,7 @@ html, body {
 
 #orangerectangle{
     width: 100%;
-    height: 4000px;
+    height: 2900px;
     background-color: #CA681C; 
     position: absolute; 
     z-index: 0;
@@ -154,7 +154,6 @@ html, body {
 
 #photosection{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     position: relative;
     flex-wrap: wrap;
@@ -198,15 +197,10 @@ h2{
     margin-top: 9%;
 }
 
-section{
-    display: flex;
-    flex-direction: column;
-}
-
 #yellowrectangle{
     display: flex;
     width: 82%;
-    height: 1300px;
+    height: 930px;
     margin-left: 9%;
     margin-top: 6%;
     flex-shrink: 0;
@@ -215,29 +209,33 @@ section{
     z-index: 2;
 }
 
-#missionrectangle{
-    width: 560px;
-    height: 160px;
-    margin-left: 15%;
-    flex-shrink: 0;
-    background-color: #8C011A;
+#mission-and-rectangle{
+    display: flex;
+    align-items: center;
     position: relative;
-    z-index: 3;
-    top: -1520px;
+    top: -940px;
 }
 
-h4{
+#missionrectangle{
+    width: 540px;
+    height: 47%;
+    margin-left: 14%;
+    background-color: #8C011A;
+    position: absolute;
+    z-index: 4;
+}
+
+#missiontext{
     font-family: 'BMHANNAPro', sans-serif;
     font-size: 80px;
     color: #FFA229;
     position: relative;
-    top: -1750px;
-    margin-left: 17%;
-    z-index: 4;
+    margin-left: 16%;
     text-decoration: underline;
     text-decoration-color: #FFA229;
     text-decoration-style: solid;
     text-underline-offset: 13%;
+    z-index: 4;
 
 } 
 
@@ -245,11 +243,110 @@ p{
     font-family: "Poor Story", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 38px;
+    font-size: 32px;
     margin-left: 15%;
     margin-right: 44%;
     color: #581915;
     position: relative;
-    top: -1800px;
+    z-index: 5;
+    top: -965px;
+    margin-top: 0px;
+}
+
+#painter{
+    position: relative;
+    z-index: 5;
+    top: -1610px;
+    margin-left: 58%;
+}
+
+#shadow2{
+    width: 360px;
+    height: 480px;
+    background-color: #CA681C;
+    position:absolute;
+    top: 11px; 
+    left: 11px; 
+    z-index: 0;
+}
+
+#redline{
+    display: flex;
+    width: 60%;
+    height: 40px;
+    margin-top: 6%;
+    flex-shrink: 0;
+    background-color: #8C011A;
+    position: absolute;
     z-index: 4;
+    top: 2450px;
+}
+
+#brownrectangle{
+    display: flex;
+    width: 82%;
+    height: 1130px;
+    margin-left: 9%;
+    margin-top: 6%;
+    flex-shrink: 0;
+    background-color: #581915;
+    position: relative;
+    z-index: 0;
+    top: -1320px;
+}
+
+#about-and-rectangle{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -2430px;
+    margin-left: 39%;
+}
+
+#aboutrectangle{
+    width: 470px;
+    height: 47%;
+    margin-left: 13%;
+    background-color: #FFA229;
+    position: absolute;
+    z-index: 4;
+}
+
+#abouttext{
+    font-family: 'BMHANNAPro', sans-serif;
+    font-size: 80px;
+    color: #8C011A;
+    position: relative;
+    margin-left: 16%;
+    text-decoration: underline;
+    text-decoration-color: #8C011A;
+    text-decoration-style: solid;
+    text-underline-offset: 13%;
+    z-index: 4;
+}
+
+
+#aboutparagraph{
+    color: #FFA229;
+    top: -2450px;
+    margin-left: 47%;
+    margin-right: 14%;
+}
+
+#me{
+    position: relative;
+    z-index: 5;
+    margin-left: 16%;
+    top:-3240px;
+}
+
+#shadow3{
+    width: 362px;
+    height: 540px;
+    background-color: #FFA229;
+    position:absolute;
+    top: 11px; 
+    left: 11px; 
+    margin-left: -2%;
+    z-index: 0;
 }
